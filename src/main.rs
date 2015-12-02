@@ -261,7 +261,8 @@ impl Game {
 }
 
 fn main() {
-    let opengl = OpenGL::V3_2;
+    // OpenGL 3_2 didn't work for me
+    let opengl = OpenGL::V2_1;
 
     let width = 1024;
     let height = 600;
