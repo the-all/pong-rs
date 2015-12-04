@@ -270,9 +270,10 @@ fn main() {
         WindowSettings::new("Pong", [width, height])
             .exit_on_esc(true)
             .opengl(opengl)
-            .samples(8)
+            //.samples(8) Error was here (but why?)
             .vsync(true)
-            .into();
+            .build()
+            .unwrap();
 
     let mut gl = GlGraphics::new(opengl);
 
