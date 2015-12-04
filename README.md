@@ -1,5 +1,5 @@
 # pong-rs
-pong written in Rust using Piston
+Fork of pong written in Rust using Piston by justinacbibit. I aim to update it to the current versions of Rust and Piston.
 
 
 ## Screenshots
